@@ -4,7 +4,7 @@ class Login extends Component {
     render() {
         return (
             <div>
-                <div col-md-6 text-center>
+                <div className="col-md-6 text-center" >
                     <form className="form-signin">
                         <span id="reauth-email" className="reauth-email"></span>
                         <input
@@ -13,7 +13,7 @@ class Login extends Component {
                             className="form-control"
                             placeholder="Email address"
                             required
-                            autofocus/>
+                            autoFocus/>
                         <input
                             type="password"
                             id="inputPassword"

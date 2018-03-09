@@ -7,7 +7,8 @@ import Navbar from './components/header/Navbar';
 import About from './components/about/About';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router';
+import { withRouter } from 'react-router'
 import './App.css';
 
 class App extends Component {
@@ -60,4 +61,4 @@ const mapDispatchToProps = (dispatch) => {
     }
   };
 };
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));

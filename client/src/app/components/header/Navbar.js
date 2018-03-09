@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import logo from './logo.svg';
 
 class Navbar extends Component {
@@ -36,7 +36,7 @@ class Navbar extends Component {
                                 <Link className="nav-link" to="/edibles">Edibles</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/login">Login</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link

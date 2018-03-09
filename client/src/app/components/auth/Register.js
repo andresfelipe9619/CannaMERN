@@ -7,7 +7,7 @@ class Register extends Component {
                 <form className="form-horizontal" method="post" action="#">
 						
 						<div className="form-group">
-							<label for="name" className="cols-sm-2 control-label">Your Name</label>
+							<label htmlFor="name" className="cols-sm-2 control-label">Your Name</label>
 							<div className="cols-sm-10">
 								<div className="input-group">
 									<span className="input-group-addon"><i className="fa fa-user fa" aria-hidden="true"></i></span>
@@ -17,7 +17,7 @@ class Register extends Component {
 						</div>
 
 						<div className="form-group">
-							<label for="email" className="cols-sm-2 control-label">Your Email</label>
+							<label htmlFor="email" className="cols-sm-2 control-label">Your Email</label>
 							<div className="cols-sm-10">
 								<div className="input-group">
 									<span className="input-group-addon"><i className="fa fa-envelope fa" aria-hidden="true"></i></span>
@@ -27,7 +27,7 @@ class Register extends Component {
 						</div>
 
 						<div className="form-group">
-							<label for="username" className="cols-sm-2 control-label">Username</label>
+							<label htmlFor="username" className="cols-sm-2 control-label">Username</label>
 							<div className="cols-sm-10">
 								<div className="input-group">
 									<span className="input-group-addon"><i className="fa fa-users fa" aria-hidden="true"></i></span>
@@ -37,7 +37,7 @@ class Register extends Component {
 						</div>
 
 						<div className="form-group">
-							<label for="password" className="cols-sm-2 control-label">Password</label>
+							<label htmlFor="password" className="cols-sm-2 control-label">Password</label>
 							<div className="cols-sm-10">
 								<div className="input-group">
 									<span className="input-group-addon"><i className="fa fa-lock fa-lg" aria-hidden="true"></i></span>
@@ -47,7 +47,7 @@ class Register extends Component {
 						</div>
 
 						<div className="form-group">
-							<label for="confirm" className="cols-sm-2 control-label">Confirm Password</label>
+							<label htmlFor="confirm" className="cols-sm-2 control-label">Confirm Password</label>
 							<div className="cols-sm-10">
 								<div className="input-group">
 									<span className="input-group-addon"><i className="fa fa-lock fa-lg" aria-hidden="true"></i></span>

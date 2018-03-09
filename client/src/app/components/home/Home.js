@@ -10,7 +10,7 @@ class Home extends Component {
                 <p className="lead">Find all your favorites strains, edibles and more</p>
                 <p className="lead">Sign up for receiving fresh cannabis info.</p>
                 <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Sign Up</a>
+                    <a className="btn btn-primary btn-lg" href="/register" role="button">Sign Up</a>
                 </p>
             </div>
             </div>

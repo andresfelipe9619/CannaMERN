@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 const config = require('../config/database');
-const utils = requiere('../config/token')
+const utils = require('../config/token');
 const User = require('../model/user');
 
 // // Register router.post('/sign_up', (req, res, next) => {     let newUser =
